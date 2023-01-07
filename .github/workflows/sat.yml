@@ -12,6 +12,8 @@ jobs:
     steps:
       - uses: actions/add-to-project@v0.1.0
         with:
-          project-name: My First Project
-          column-name: Todo
+          project-urlname: https://github.com/users/deena-katma/projects/1
+          github-token: ${{ secrets.ADD_TO_PROJECT_PAT }}
+          labeled: bug, needs-triage
+          label-operator: OR
           
