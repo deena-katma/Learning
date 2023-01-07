@@ -10,7 +10,7 @@ jobs:
     name: Add issue to project
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/add-to-project@v1
+      - uses: actions/add-to-project
         with:
           project-name: My First Project
           column-name: Todo
