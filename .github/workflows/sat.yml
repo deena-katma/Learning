@@ -13,7 +13,7 @@ jobs:
       - uses: actions/add-to-project@v0.1.0
         with:
           project-url: https://github.com/users/deena-katma/projects/1
-          github-token: ${{ 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 }}
+          github-token: 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
           labeled: bug, needs-triage
           label-operator: OR
           
