@@ -13,7 +13,7 @@ jobs:
       - uses: actions/add-to-project@v0.1.0
         with:
           project-url: https://github.com/users/deena-katma/projects/1
-          github-token: ${{ secrets.SEC_TOKEN }}
+          github-token: ${{ secrets.A_SECRET }}
           labeled: bug, needs-triage
           label-operator: OR
           
