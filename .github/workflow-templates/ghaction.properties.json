@@ -1,7 +1,6 @@
 {
     "name": "Add new issues to Org Board",
     "description": "Testing workflow.",
-    "iconName": '<%= render(Primer::OcticonComponent.new(:"book")) %>',
     "categories": [
         "testing"
     ],
