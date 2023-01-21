@@ -12,6 +12,6 @@ jobs:
     steps:
       - uses: actions/add-to-project@v0.4.0
         with:
-          project-url: https://github.com/users/deena-katma/projects/3
+          project-url: https://github.com/users/deena-katma/projects/7
           github-token: ${{ secrets.A_SECRET }}
           
